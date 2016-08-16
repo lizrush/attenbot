@@ -1,0 +1,1 @@
+convert data/frames/S03E11/270.gif -gravity south -font Helvetica -pointsize 14 -stroke '#000C' -strokewidth 3 -annotate 0 '"These pretzels are\nmaking me thirsty"\n'  -stroke none -fill white -annotate 0 '"These pretzels are\nmaking me thirsty"\n' data/annotate/S03E11/270.gif
