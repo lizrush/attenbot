@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>David Attenbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="David Attenbot"/>
+  <meta property="og:description" content="Post gifs of David Attenborough shows to Slack!"/>
+  <meta property="og:site_name" content="David Attenbot"/>
+  <meta property="og:image" content="https://attenbot.com/42.gif"/>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <link href="/css/index.css" rel="stylesheet">
+
+</head>
+<body {{#if complete}}class="complete"{{/if}}>
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      {{{body}}}
+
+      <div class="mastfoot">
+        <div class="inner">
+          <p>Written by <a href="https://twitter.com/lizmrush">@lizmrush</a>.</p>
+          <p>Many thanks to <a href="https://vandelayindustries.online">Vandelay Industries</a>, from which this entire thing has been stolen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
